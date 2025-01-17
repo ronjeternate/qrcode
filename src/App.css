@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  width: 210.5vh;
+  background-color: #3a3838;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px); 
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-field {
+  padding: 15px;
+  width: 90%;
+  margin: 15px 0;
+  font-size: 18px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #f0f0f0;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00fffb; 
+}
+
+.qrcode-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff; 
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #00fffb; 
+}
